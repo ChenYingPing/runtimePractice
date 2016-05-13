@@ -15,6 +15,10 @@
 		74C8EF2F1CE57B1E009ACE42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74C8EF2D1CE57B1E009ACE42 /* LaunchScreen.storyboard */; };
 		74C8EF3A1CE57B1E009ACE42 /* runtimePracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C8EF391CE57B1E009ACE42 /* runtimePracticeTests.m */; };
 		74C8EF451CE57B1E009ACE42 /* runtimePracticeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C8EF441CE57B1E009ACE42 /* runtimePracticeUITests.m */; };
+		74C8EF541CE57B2F009ACE42 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C8EF531CE57B2F009ACE42 /* Person.m */; };
+		74C8EF571CE57BE1009ACE42 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C8EF561CE57BE1009ACE42 /* Cat.m */; };
+		74C8EF5A1CE582D9009ACE42 /* UIViewController+Swizz.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C8EF591CE582D9009ACE42 /* UIViewController+Swizz.m */; };
+		74DEABD61CE5BA1F002CCB4B /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DEABD51CE5BA1F002CCB4B /* Model.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		74C8EF401CE57B1E009ACE42 /* runtimePracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = runtimePracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74C8EF441CE57B1E009ACE42 /* runtimePracticeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = runtimePracticeUITests.m; sourceTree = "<group>"; };
 		74C8EF461CE57B1E009ACE42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74C8EF521CE57B2F009ACE42 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		74C8EF531CE57B2F009ACE42 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		74C8EF551CE57BE1009ACE42 /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		74C8EF561CE57BE1009ACE42 /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		74C8EF581CE582D9009ACE42 /* UIViewController+Swizz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Swizz.h"; sourceTree = "<group>"; };
+		74C8EF591CE582D9009ACE42 /* UIViewController+Swizz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Swizz.m"; sourceTree = "<group>"; };
+		74DEABD41CE5BA1F002CCB4B /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		74DEABD51CE5BA1F002CCB4B /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +117,14 @@
 				74C8EF231CE57B1E009ACE42 /* AppDelegate.m */,
 				74C8EF251CE57B1E009ACE42 /* ViewController.h */,
 				74C8EF261CE57B1E009ACE42 /* ViewController.m */,
+				74C8EF581CE582D9009ACE42 /* UIViewController+Swizz.h */,
+				74C8EF591CE582D9009ACE42 /* UIViewController+Swizz.m */,
+				74C8EF521CE57B2F009ACE42 /* Person.h */,
+				74C8EF531CE57B2F009ACE42 /* Person.m */,
+				74C8EF551CE57BE1009ACE42 /* Cat.h */,
+				74C8EF561CE57BE1009ACE42 /* Cat.m */,
+				74DEABD41CE5BA1F002CCB4B /* Model.h */,
+				74DEABD51CE5BA1F002CCB4B /* Model.m */,
 				74C8EF281CE57B1E009ACE42 /* Main.storyboard */,
 				74C8EF2B1CE57B1E009ACE42 /* Assets.xcassets */,
 				74C8EF2D1CE57B1E009ACE42 /* LaunchScreen.storyboard */,
@@ -272,7 +292,11 @@
 			files = (
 				74C8EF271CE57B1E009ACE42 /* ViewController.m in Sources */,
 				74C8EF241CE57B1E009ACE42 /* AppDelegate.m in Sources */,
+				74C8EF541CE57B2F009ACE42 /* Person.m in Sources */,
 				74C8EF211CE57B1E009ACE42 /* main.m in Sources */,
+				74DEABD61CE5BA1F002CCB4B /* Model.m in Sources */,
+				74C8EF5A1CE582D9009ACE42 /* UIViewController+Swizz.m in Sources */,
+				74C8EF571CE57BE1009ACE42 /* Cat.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +520,7 @@
 				74C8EF4B1CE57B1E009ACE42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74C8EF4C1CE57B1E009ACE42 /* Build configuration list for PBXNativeTarget "runtimePracticeTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +529,7 @@
 				74C8EF4E1CE57B1E009ACE42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74C8EF4F1CE57B1E009ACE42 /* Build configuration list for PBXNativeTarget "runtimePracticeUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +538,7 @@
 				74C8EF511CE57B1E009ACE42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
